@@ -38,6 +38,11 @@ def get_project_data():
             "Lonny Corporation Website Repo", 
             "https://github.com/tlonny/lonny-corporation-website", 
             "The code to build this static website. Written entirely in python :-)"
+        ),
+
+        (
+            "A sensible Neovim configuration",
+            "https://github.com/tlonny/nvim-config",
+            "This config is written entirely in lua. It has all the good stuff you'd expect: LSP, Nvimtree, Copilot, Trouble, Lualine, Bufferline, Telescope etc."
         )
-            
     ]
