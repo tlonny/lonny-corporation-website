@@ -9,7 +9,8 @@ from lib.page.home import home
 
 from lib.config import (
     get_title,
-    get_stylesheet
+    get_stylesheet,
+    get_favicon_url
 )
 
 def build():
@@ -19,6 +20,7 @@ def build():
 
     with doc.head:
         tags.link(rel="stylesheet", href=style_dst)
+        tags.link(rel="icon", href=get_favicon_url())
         tags.meta(name="viewport", content="width=device-width, initial-scale=1")
     with doc.body, style:
         default_style()

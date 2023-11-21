@@ -6,6 +6,9 @@ def get_title():
 def get_logo_url():
     return "assets/images/lonny.png"
 
+def get_favicon_url():
+    return "assets/images/favicon.png"
+
 def get_stylesheet():
     return ("style.css")
 
@@ -35,7 +38,7 @@ def get_social_data():
 def get_project_data():
     return [
         (
-            "Lonny Corporation Website Repo", 
+            "Lonny Corporation website generator",
             "https://github.com/tlonny/lonny-corporation-website", 
             "The code to build this static website. Written entirely in python :-)"
         ),
