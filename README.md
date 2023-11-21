@@ -1,4 +1,4 @@
-# Lonny Corporation Website Generator
+# Lonny Corporation website generator
 
 ### Installation
 
