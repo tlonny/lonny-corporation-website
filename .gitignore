@@ -1,0 +1,7 @@
+__pycache__/
+.env
+.envrc
+*.py[cod]
+.venv
+build/
+pyrightconfig.json
