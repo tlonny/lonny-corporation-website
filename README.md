@@ -9,7 +9,7 @@ python -m venv .venv
 # Point to the virtualenv python with direnv
 echo "PATH_add .venv/bin" > .envrc
 
-# Install the dependency (there is one)
+# Install the dependencies
 pip install -r requirements.txt
 
 # Build the website
