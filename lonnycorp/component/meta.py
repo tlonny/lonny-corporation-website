@@ -52,5 +52,6 @@ def style_shims():
 def meta(doc, *, title):
     doc.style(style_shims())
     doc.tag("link", {"rel" : "icon", "type" : "image/x-icon", "href" : "/assets/images/favicon.png"})
+    doc.tag("meta", {"name": "viewport", "content" : "width=device-width, initial-scale=1.0"})
     with doc.tag("title"):
         doc.text(title)

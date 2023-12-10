@@ -54,6 +54,6 @@ def page():
                 doc,
                 title = "A sensible Neovim configuration",
                 href = "https://github.com/tlonny/nvim-config",
-                description = "A sensible Neovim configuration",
+                description = "A sensible Neovim configuration loaded with all the good stuff you'd expect - lspconfig, treesitter, copilot, nvimtree, etc.",
             )
     return str(doc)
