@@ -1,5 +1,5 @@
 from contextlib import contextmanager
-from lonnycorp.lib.dom import style
+from pdoo import style
 from lonnycorp.config import get_max_width_breakpoint
 from lonnycorp.component.header import header
 from lonnycorp.component.nav import nav_column

@@ -1,4 +1,4 @@
-from lonnycorp.lib.dom import style
+from pdoo import style
 from lonnycorp.config import get_divider_color
 
 @style

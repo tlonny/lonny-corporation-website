@@ -1,4 +1,4 @@
-from lonnycorp.lib.dom import style
+from pdoo import style
 from lonnycorp.component.nav import nav_links
 from lonnycorp.component.divider import divider
 from lonnycorp.config import (

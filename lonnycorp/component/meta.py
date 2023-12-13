@@ -1,4 +1,4 @@
-from lonnycorp.lib.dom import style
+from pdoo import style
 
 @style
 def style_shims():

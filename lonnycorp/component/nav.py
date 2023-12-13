@@ -1,4 +1,4 @@
-from lonnycorp.lib.dom import style
+from pdoo import style
 from lonnycorp.component.divider import divider
 from lonnycorp.config import (
     get_logo_url,

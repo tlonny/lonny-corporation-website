@@ -1,4 +1,4 @@
-from lonnycorp.lib.dom import style, Document
+from pdoo import style, Document
 from lonnycorp.config import default_title
 from lonnycorp.component.meta import meta
 from lonnycorp.component.container import container
@@ -41,6 +41,13 @@ def page():
                 title = "Doors",
                 href = "#",
                 description = "A _free-to-play_ creation/exploration game. Create and upload levels with cusotm assets. Link them together with doors and explore a seamless, interconnected and often non-euclidian dreamscape.",
+            )
+
+            project(
+                doc,
+                title = "PDOO",
+                href = "https://github.com/tlonny/pdoo",
+                description = "A lightweight, zero-dependency library that allows for easily crafting _styled_ HTML documents purely within python - Its what I use for this website!"
             )
 
             project(
